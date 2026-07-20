@@ -137,7 +137,7 @@ Supabase is where your document content and search index live. No prior database
 > 💡 **This one script does three things at once**: enables the vector search feature, **creates the `company_documents` table itself** (it does not exist until this script creates it), and creates the search function the chatbot needs. Running it is the only way the table gets created — if you ever delete the table, re-running this exact script recreates it.
 
 1. In the left sidebar, click **SQL Editor → New query**
-2. Open the `supabase_setup.sql` file provided with your purchase (or copy the fallback version below if that file isn't available)
+2. see the `supabase_setup.sql` file in the repo
 3. Copy its entire contents and paste into the query box
 4. Click **Run** ▶️
 5. You should see **"Success. No rows returned."** ✅ — that means it worked
